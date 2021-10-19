@@ -11,8 +11,8 @@ namespace INADevOps2
             Console.WriteLine("Hello World!");
             Program p = new Program();
             Console.Write("EScribe tu nombre ");
-            string n = Console.ReadLine()
-            p.Transformar(n)
+            string n = Console.ReadLine();
+            p.Transformar(n);
             Console.WriteLine("El nombre tuyo es {0} ", p.Transformado);
         }
     }
